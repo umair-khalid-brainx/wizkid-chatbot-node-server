@@ -3,7 +3,7 @@ const path = require("path")
 const cors = require("cors")
 
 const app = express()
-const port = 3500
+const port = 5000
 const allowedOrigin = "http://127.0.0.1:5500"
 
 const corsOptions = {
