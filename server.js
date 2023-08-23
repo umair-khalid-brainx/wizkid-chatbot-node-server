@@ -5,7 +5,7 @@ const cors = require("cors")
 const app = express()
 const port = 5089
 const corsOptions = {
-  origin: ["https://wizkid-bot-backend.brainxdemo.com", "http://127.0.0.1:5501", "http://localhost:5089", "http://localhost:5173"],
+  origin: ["https://bot.brainxdemo.com", "http://127.0.0.1:5501", "http://localhost:5089", "http://localhost:5173"],
 }
 
 app.use(cors(corsOptions))
